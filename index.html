@@ -28,7 +28,7 @@
         </header>
         <section class="person">
             <div class="person__description">
-                <p class="person__subtitle">Фрилансер</p>
+                <p class="subtitle_place_person">Фрилансер</p>
                 <h1 class="person__title">Петр Федоров</h1>
                 <p class="person__text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
                 <button class="button" type="button">Бесплатная консультация</button>
@@ -36,7 +36,7 @@
             <img class="person__avatar" src="./images/Keanu.jpg" alt="Фото фрилансера">
         </section>
         <section class="advantages">
-            <h2 class="subtitle advantages__subtitle">Со мной удобно работать</h2>
+            <h2 class="subtitle subtitle_place_advantages">Со мной удобно работать</h2>
             <ul class="advantages__table">
                 <li class="advantage">
                     <img class="advantage__icon" src="./images/icon/offer-img.png" alt="договор">
@@ -71,26 +71,26 @@
             </ul>
         </section>
         <section class="partfolio">
-            <h2 class="subtitle partfolio__subtitle">Выполненные проекты</h2>
+            <h2 class="subtitle subtitle_place_partfolio">Выполненные проекты</h2>
             <ul class="partfolio__projects">
                 <li class="project-card">
                     <img class="project-card__img" src="./images/portfolio1.jpg" alt="Фото проекта">
                     <div class="project-card__content">
-                        <p class="project-card__description">The curious corner of chamarel</p>
+                        <p class="project-card__description">The curious corner<br>of chamarel</p>
                         <a class="project-card__button" href="#">Посмотреть</a>
                     </div>
                 </li>
                 <li class="project-card">
                     <img class="project-card__img" src="./images/portfolio2.jpg" alt="Фото проекта">
                     <div class="project-card__content">
-                        <p class="project-card__description">Gymkhana club golf course</p>
+                        <p class="project-card__description">Gymkhana club golf<br>course</p>
                         <a class="project-card__button" href="#">Посмотреть</a>
                     </div>
                 </li>
                 <li class="project-card">
                     <img class="project-card__img" src="./images/portfolio3.jpg" alt="Фото проекта">
                     <div class="project-card__content">
-                        <p class="project-card__description">Tamarind falls hiking trip - full day</p>
+                        <p class="project-card__description">Tamarind falls hiking<br>trip - full day</p>
                         <a class="project-card__button" href="#">Посмотреть</a>
                     </div>
                 </li>
@@ -145,35 +145,33 @@
             </ul>
         </section>
         <footer class="footer">
-            <h2 class="subtitle footer__subtitle">Свяжитесь со мной</h2>
+            <h2 class="subtitle subtitle_place_footer">Свяжитесь со мной</h2>
             <div class="footer__column">
                 <form class="form">
                     <fieldset class="form__contacts">
                         <p class="form__title">Можете просто оставить заявку, я позвоню вам сегодня</p>
                         <input class="form__input" type="text" name="name" id="name" placeholder="Ваше имя">
-                        <input class="form__input" type="tel" name="telephone" id="telephone" placeholder="Ваш телефон">
-                        <button class="button button_place_form" type="submit">Бесплатаная консультация</button>
+                        <input class="form__input" type="tel" name="phone" id="phone" placeholder="Ваш телефон">
+                        <button class="button button_place_form">Бесплатаная консультация</button>
                     </fieldset>
                 </form>
                 <div class="footer__content">
                     <div class="contacts">
-                        <div class="contact__ditails">
-                            <div class="contact__phone">
-                                <h3 class="footer__title">Телефон</h3>
-                                <p class="footer__info">+7 999 123 45 67</p>
-                            </div>
-                            <div class="contact__email">
-                                <h3 class="footer__title">Почта</h3>
-                                <p class="footer__info">ivanov@mail.ru</p>
-                            </div>
+                        <div class="contact">
+                            <h3 class="contact__title">Телефон</h3>
+                            <a class="contact__value" href="tel:+79991234567">+7 999 123 45 67</a>
                         </div>
-                        <div class="contact__social">
-                            <h3 class="footer__title">Соцсети</h3>
-                            <a class="footer__info footer__info_link" href="#">t.me/ivanov</a>
-                            <a class="footer__info footer__info_link" href="#">vk.me/ivanov</a>
-                            <a class="footer__info footer__info_link" href="#">fb.me/ivanov</a>
+                        <div class="contact">
+                            <h3 class="contact__title">Почта</h3>
+                            <a class="contact__value" href="mailto:ivanov@mail.ru">ivanov@mail.ru</a>
                         </div>
-                        <div class="socials">
+                        <div class="contact contact_size_full">
+                            <h3 class="contact__title">Соцсети</h3>
+                            <a class="contact__value" href="#">t.me/ivanov</a>
+                            <a class="contact__value" href="#">vk.me/ivanov</a>
+                            <a class="contact__value" href="#">fb.me/ivanov</a>
+                        </div>
+                        <div class="socials contact_size_full">
                             <a class="socials__icon" href="#">
                                 <img src="./images/icon/github.png" alt="гитхаб">
                             </a>
@@ -187,7 +185,6 @@
                                 <img src="./images/icon/facebook.png" alt="фейсбук">
                             </a>
                         </div>
-                
                     </div>
                     <a class="policy" href="">Политика конфиденциальности</a>
                 </div>
