@@ -10,4 +10,13 @@
     background-color: #ec1f46;
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    -webkit-transition: background-color 1s ease-in-out;
+    -moz-transition: background-color 1s ease-in-out;
+    -o-transition: background-color 1s ease-in-out;
+    transition: background-color 1s ease-in-out;
 }
+  
+.project-card__button:hover {
+    background-color: #ff9a02;
+}
+  

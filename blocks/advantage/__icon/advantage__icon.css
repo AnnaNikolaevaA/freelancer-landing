@@ -1,3 +1,11 @@
 .advantage__icon {
     margin: 0 0 21px;  
+    -webkit-transition: margin-left 1s ease-in-out;
+    -moz-transition: margin-left 1s ease-in-out;
+    -o-transition: margin-left 1s ease-in-out;
+    transition: margin-left 1s ease-in-out;
 }
+  
+  .advantage__icon:hover {
+    margin-left: 15px;
+  }

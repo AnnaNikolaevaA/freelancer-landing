@@ -1,6 +1,14 @@
 .socials__icon {
     text-decoration: none;
     margin-right: 21px;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+  
+.socials__icon:hover {
+    opacity: .6;
 }
 
 .socials__icon:last-child {

@@ -4,8 +4,16 @@
     list-style: none;
     position: relative;
     margin-right: 16px;
+    -webkit-transition: margin-top .5s ease-in-out;
+    -moz-transition: margin-top .5s ease-in-out;
+    -o-transition: margin-top .5s ease-in-out;
+    transition: margin-top .5s ease-in-out;
 }
-
+  
+.project-card:hover {
+    margin-top: -10px;
+}
+  
 .project-card:nth-child(3n) {
     margin-right: 0;
 }

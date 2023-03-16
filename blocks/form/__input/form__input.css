@@ -9,3 +9,8 @@
     margin: 0 0 20px;
     padding: 20px 24px 20px 52px;
 }
+  
+.form__input:focus {
+    outline: 1px solid #ffbb01;
+}
+  
