@@ -1,0 +1,10 @@
+.advantage {
+    list-style: none;
+    width: 304px;
+    margin-right: 16px;
+    margin-bottom: 72px;
+}
+
+.advantage:nth-child(3n) {
+    margin-right: 0;
+}

@@ -1,0 +1,8 @@
+.socials__icon {
+    text-decoration: none;
+    margin-right: 21px;
+}
+
+.socials__icon:last-child {
+    margin-right: 0;
+}

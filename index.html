@@ -28,7 +28,7 @@
         </header>
         <section class="person">
             <div class="person__description">
-                <p class="subtitle_place_person">Фрилансер</p>
+                <h2 class="person__subtitle">Фрилансер</h2>
                 <h1 class="person__title">Петр Федоров</h1>
                 <p class="person__text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
                 <button class="button" type="button">Бесплатная консультация</button>
@@ -56,7 +56,7 @@
                 <li class="advantage">
                     <img class="advantage__icon" src="./images/icon/steps-img.png" alt="гарантия">
                     <h3 class="advantage__name">Промежуточные итоги</h3>
-                    <p class="advantage__text">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
+                    <p class="advantage__text">Показываю работу поэтапно, а не в последий момент перед<br>крайним сроком.</p>
                 </li>
                 <li class="advantage">
                     <img class="advantage__icon" src="./images/icon/storage-img.png" alt="хостинг">
@@ -66,7 +66,7 @@
                 <li class="advantage">
                     <img class="advantage__icon" src="./images/icon/conversation-img.png" alt="связь">
                     <h3 class="advantage__name">Не брошу после сдачи</h3>
-                    <p class="advantage__text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+                    <p class="advantage__text">Научу вас или вашего сотрудника пользоваться сайтом, запишу<br>видео-инструкции.</p>
                 </li>
             </ul>
         </section>
@@ -150,7 +150,13 @@
                 <form class="form">
                     <fieldset class="form__contacts">
                         <p class="form__title">Можете просто оставить заявку, я позвоню вам сегодня</p>
+                        <label class="form__icon" for="name">
+                            <img src="./images/icon/user-icon.png" alt="Ваше имя">
+                        </label>
                         <input class="form__input" type="text" name="name" id="name" placeholder="Ваше имя">
+                        <label class="form__icon" for="phone">
+                            <img src="./images/icon/phone-icon.png" alt="Ваш телефон">
+                        </label>
                         <input class="form__input" type="tel" name="phone" id="phone" placeholder="Ваш телефон">
                         <button class="button button_place_form">Бесплатаная консультация</button>
                     </fieldset>
@@ -171,7 +177,7 @@
                             <a class="contact__value" href="#">vk.me/ivanov</a>
                             <a class="contact__value" href="#">fb.me/ivanov</a>
                         </div>
-                        <div class="socials contact_size_full">
+                        <div class="socials">
                             <a class="socials__icon" href="#">
                                 <img src="./images/icon/github.png" alt="гитхаб">
                             </a>

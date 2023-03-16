@@ -1,0 +1,7 @@
+.footer__content {
+    width: 384px;
+    margin-left: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,13 @@
+.project-card__button {
+    width: 120px;
+    height: 36px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 36px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #ec1f46;
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

@@ -1,0 +1,7 @@
+.advantages__table {
+    margin: 80px auto 0;
+    width: 944px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}

@@ -1,381 +1,53 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-
-.page {
-    min-width: 1280px;
-    font-family: 'Roboto', Arial, sans-serif;
-    background-color: #1B2944;
-    padding-top: 41px;
-    color: #fff;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 944px;
-}
-
-.logo {
-    background-image: url(../images/icon/logo.png);
-    width: 100px;
-    height: 28px;
-}
-
-.socials__icon {
-    text-decoration: none;
-    margin-right: 21px;
-}
-
-.socials__icon:last-child {
-    margin-right: 0;
-}
-
-.person {
-    display: flex;
-    justify-content: space-between;
-    width: 944px;
-    margin: 113px auto 0;
-    padding-bottom: 71px;
-}
-
-.person__avatar {
-    width: 362px;
-    height: 362px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 11px solid #fff;
-}
-
-.subtitle_place_person {
-    color: #ffbb01;
-    margin: 37px 0 0;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-}
-
-.person__title {
-    margin: 13px 0 20px;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 59px;
-}
-
-.person__text {
-    width: 464px;
-    margin: 0 0 38px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-}
-
-.button {
-    width: 300px;
-    height: 66px;
-    padding: 25px 0;
-    background-color: #ffbb01;
-    border: none;
-    border-radius: 5px 5px 10px 10px;
-    box-shadow: 0px 4px 0px #b68500;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    cursor: pointer;
-}
-
-.advantages {
-    background-color: #141F35;
-    padding: 64px 0 20px;
-}
-
-.subtitle {
-    width: 944px;
-    margin: 0 auto;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-}
-
-.subtitle_place_advantages {
-    margin-bottom: 80px;
-}
-
-.advantages__table {
-    margin: 80px auto 0;
-    width: 944px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-}
-
-.advantage {
-    list-style: none;
-    width: 304px;
-    margin-right: 16px;
-    margin-bottom: 72px;
-}
-
-.advantage:nth-child(3n) {
-    margin-right: 0;
-}
-
-.advantage__icon {
-    margin: 0 0 21px;  
-}
-
-.advantage__name {
-    margin: 0 0 16px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-}
-
-.advantage__text {
-    margin: 0;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 28px;
-}
-
-.partfolio {
-    width: 944px;
-    padding: 64px 0;
-    margin: 0 auto;
-}
-
-.subtitle_place_partfolio {
-    margin-bottom: 54px;
-}
-
-.partfolio__projects {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
-}
-
-.project-card {
-    width: 304px;
-    height: 304px;
-    list-style: none;
-    position: relative;
-    margin-right: 16px;
-}
-
-.project-card:nth-child(3n) {
-    margin-right: 0;
-}
-
-.project-card__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
-.project-card__content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-    background-image: linear-gradient(180deg, rgba(196, 196, 196, 0) 35.34%, #213E60 100%);
-    padding: 28px 30px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
-
-.project-card__description {
-    margin: 0 0 12px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-}
-
-.project-card__button {
-    width: 120px;
-    height: 36px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 36px;
-    color: #fff;
-    text-decoration: none;
-    background-color: #ec1f46;
-    border-radius: 4px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.gallery {
-    background-color: #141F35;
-    padding: 80px 0;
-}
-
-.gallery__table {
-    width: 944px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.gallery__item {
-    list-style: none;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    position: relative;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.gallery__item:nth-child(4n) {
-    margin-right: 0;
-}
-
-.gallery__pic {
-    width: 224px;
-    height: 224px;
-    object-fit: cover;
-}
-
-.gallery__video {
-    width: 224px;
-    height: 224px;
-    object-fit: cover;
-}
-
-.gallery__video-info {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    padding: 8px;
-    display: flex;
-    justify-content: end;
-    align-items: start;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 255, 0) 50%);
-}
-
-.gallery__video-time{
-    margin: 0;
-    /* font-weight: 500; */
-    font-size: 12px;
-    line-height: 16px;
-}
-
-.gallery__video-play {
-    margin-left: 4px;
-}
-
-.footer {
-    padding: 64px 0 87px 0;
-}
-
-.subtitle_place_footer {
-    margin-bottom: 88px;
-}
-
-.footer__column {
-   width: 944px;
-   margin: 0 auto;
-   display: flex;
-}
-
-.form {
-    width: 464px;
-    height: 456px;
-    background-color: #fff;
-    padding: 47px 42px 61px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    box-shadow: -5px 5px 0px #ffc41d;
-}
-
-.form__contacts {
-    border: none;
-    padding: 0;
-    margin: 0;
-}
-
-.form__title {
-    color: #000;
-    text-align: center;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    margin: 0 0 30px; 
-}
-
-.button_place_form {
-    width: 100%;
-    filter: none;
-}
-
-.form__input {
-    width: 100%;
-    height: 70px;
-    border: none;
-    background-color: #f8f8f8;
-    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin: 0 0 20px;
-    padding: 20px 24px;
-}
-
-.footer__content {
-    width: 384px;
-    margin-left: 96px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-
-.contacts {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact {
-    margin-bottom: 32px;
-    padding-right: 34px;
-}
-    
-.contact__title {
-    margin: 0 0 20px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;  
-}
-
-.contact__value {
-    margin: 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    margin-right: 50px;
-    text-decoration: none;
-    color: #fff;
-    margin-right: 50px;
-}
-
-.contact__value:last-child {
-    margin-right: 0;
-}
-
-.contact_size_full {
-    width: 100%;
-    padding-right: 0;
-}
-
-.policy {
-    color: #949494;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-}
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/socials/socials.css);
+@import url(../blocks/socials/__icon/socials__icon.css);
+@import url(../blocks/person/person.css);
+@import url(../blocks/person/__avatar/person__avatar.css);
+@import url(../blocks/person/__subtitle/person__subtitle.css);
+@import url(../blocks/person/__title/person__title.css);
+@import url(../blocks/person/__text/person__text.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_place/button_place_form.css);
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/subtitle/_place/subtitle_place_advantages.css);
+@import url(../blocks/subtitle/_place/subtitle_place_partfolio.css);
+@import url(../blocks/subtitle/_place/subtitle_place_footer.css);
+@import url(../blocks/advantages/__table/advantages__table.css);
+@import url(../blocks/advantage/advantage.css);
+@import url(../blocks/advantage/__icon/advantage__icon.css);
+@import url(../blocks/advantage/__name/advantage__name.css);
+@import url(../blocks/advantage/__text/advantage__text.css);
+@import url(../blocks/partfolio/partfolio.css);
+@import url(../blocks/partfolio/__projects/partfolio__projects.css);
+@import url(../blocks/project-card/project-card.css);
+@import url(../blocks/project-card/__img/project-card__img.css);
+@import url(../blocks/project-card/__content/project-card__content.css);
+@import url(../blocks/project-card/__description/project-card__description.css);
+@import url(../blocks/project-card/__button/project-card__button.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__table/gallery__table.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__pic/gallery__pic.css);
+@import url(../blocks/gallery/__video/gallery__video.css);
+@import url(../blocks/gallery/__video-info/gallery__video-info.css);
+@import url(../blocks/gallery/__video-time/gallery__video-time.css);
+@import url(../blocks/gallery/__video-play/gallery__video-play.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__contacts/form__contacts.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__icon/form__icon.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__title/contact__title.css);
+@import url(../blocks/contact/__value/contact__value.css);
+@import url(../blocks/contact/_size/contact_size_full.css);
+@import url(../blocks/policy/policy.css);

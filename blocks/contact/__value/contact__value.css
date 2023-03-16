@@ -1,0 +1,14 @@
+.contact__value {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 50px;
+}
+
+.contact__value:last-child {
+    margin-right: 0;
+}
