@@ -32,11 +32,10 @@
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__table/gallery__table.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__item/_content/gallery__item_content_video.css);
 @import url(../blocks/gallery/__pic/gallery__pic.css);
 @import url(../blocks/gallery/__video/gallery__video.css);
 @import url(../blocks/gallery/__video-info/gallery__video-info.css);
-@import url(../blocks/gallery/__video-time/gallery__video-time.css);
-@import url(../blocks/gallery/__video-play/gallery__video-play.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__content/footer__content.css);
@@ -44,6 +43,8 @@
 @import url(../blocks/form/__contacts/form__contacts.css);
 @import url(../blocks/form/__title/form__title.css);
 @import url(../blocks/form/__icon/form__icon.css);
+@import url(../blocks/form/__icon/_phone/form__icon_phone.css);
+@import url(../blocks/form/__icon/_user/form__icon_user.css);
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contact/contact.css);

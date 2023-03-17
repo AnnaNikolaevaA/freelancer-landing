@@ -15,3 +15,12 @@
     font-family: 'Roboto';
     font-weight: 700;
   }
+
+  @font-face {
+     src: url(../fonts/roboto/medium/Roboto-Medium.woff2) format("woff2"),
+          url(../fonts/roboto/medium/Roboto-Medium.woff) format("woff"),
+          url(../fonts/roboto/medium/Roboto-Medium.ttf) format("truetype"),
+          url(../fonts/roboto/medium/Roboto-Medium.eot) format("eot");
+     font-family: 'Roboto';
+     font-weight: 500;
+   }

@@ -3,4 +3,12 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
+    -webkit-transition: color .7s ease-in-out;
+    -moz-transition: color .7s ease-in-out;
+    -o-transition: color .7s ease-in-out;
+    transition: color .7s ease-in-out;
+}
+  
+.policy:hover {
+    color: #d4d4d4;
 }
