@@ -5,3 +5,5 @@ Landing page "Freelancer".
 Проект включает в себя использование iframe элементов, анимацию.
 
 В дальнейшем планируется в данном проекте использование Java Script.
+
+* [Ссылка на проект](https://annanikolaevaa.github.io/freelancer-landing/)
